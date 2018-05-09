@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage("foo") {
       steps {
-        sh 'echo "Hello from Pipeline!"'
+        sh 'echo "Hello from Pipeline! 2"'
       }
     }
   }
